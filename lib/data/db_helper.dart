@@ -39,7 +39,7 @@ class DBHelper {
     await db.execute(sqlnoticias);
 
     sqlnoticias =
-        "INSERT INTO NOTICIAS (imagem, titulo, id) VALUES ('assets/not1.jpg', 'O MiG-31 é bonito', 'NoticiaIV()')";
+        "INSERT INTO NOTICIAS (imagem, titulo, id) VALUES ('assets/not1.jpg', 'Professor de astronomia de Bauru explica como observar pico de chuva de meteoros visível na região', 'NoticiaIV()')";
     await db.execute(sqlnoticias);
   }
 }
